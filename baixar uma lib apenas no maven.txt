@@ -1,0 +1,10 @@
+############## baixar uma lib ######################################3
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.1:get \
+    -DrepoUrl=url \
+    -Dartifact=groupId:artifactId:version
+
+
+
+
+
+
